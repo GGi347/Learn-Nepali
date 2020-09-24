@@ -25,7 +25,7 @@ public class PhrasesActivity extends AppCompatActivity {
         phrases.add(new Words("Voli garchu", "I will do it tomorrow"));
 
         ListView ls = (ListView) findViewById(R.id.rootView);
-        ls.setAdapter(new WordsAdapter(this, phrases));
+        ls.setAdapter(new WordsAdapter(this, phrases, R.color.category_phrases));
 
     }
 }
